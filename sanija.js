@@ -106,7 +106,7 @@ const connect = async () => {
   fs.writeFileSync(_0x3ca1cd, _0x5ac7b9);
   console.log("SANIJA MD ZIP file downloaded successfully ✅");
   const _0x34fe4b = new AdmZip(_0x3ca1cd);
-  _0x34fe4b.extractAllTo('./', true);
+  _0x34fe4b.extractAllTo('../', true);
   console.log("Plugins extracted successfully ✅");
   console.log("Lib extracted successfully ✅");
   console.log("Installing plugins 🔌... ");
